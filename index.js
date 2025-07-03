@@ -11,7 +11,7 @@ app.get('/home',(req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 app.get('/contact', (req, res) =>{
-  res.sendFile(__dirname + '/Contact.html');
+  res.sendFile(__dirname + '/contact.html');
 });
 app.get('/about', (req, res) => {
   res.sendFile(__dirname + '/about.html');
