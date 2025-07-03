@@ -1,15 +1,42 @@
+
 h1 {color:red; 
   text-align: center; 
   background-color:yellow}
 .code-header {font-size: 500%;
-              border-radius: 35px} 
-#camp-title{border: green solid 10px}
-img {position:absolute; top:200px;left:550px; }
-nav {text-align: center;}
+              border-radius: 35px} #camp-title {border: green solid 10px} img {position: absolute; top: 200px; left: 550px}
 
-h1:hover{color:green; font-size:20px;}
-h1{color:pink;
-  transition-delay:0.2s;
-transition-duration:3s;
-transition-property:all;
-transition-timing-function:ease-in}
+
+.code-header {
+  font-size: 500%;
+  border-radius: 35px;
+} 
+
+#camp-title {
+  border: green solid 10px;
+}
+
+img {
+  position: absolute; 
+  top: 200px;
+  left: 550px;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: lightblue;
+  color: black;
+  border-radius: 3px;
+}
+
+nav a:hover {
+  background-color: blue;
+  color: white;
+}
+
